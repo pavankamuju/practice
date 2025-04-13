@@ -1,7 +1,7 @@
 pipeline {
     agent any
     tools{
-        git "git-2.43.0"
+        git "Git-2.43.0"
     }
     stages {
         stage('Clone Repo') {
