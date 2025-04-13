@@ -1,0 +1,38 @@
+---
+apiVersion: v1
+Kind: Deployment
+metadata:
+   name: mavenwebapp
+   label:
+      app: webapp
+Spec:
+replicas: 2
+selector:
+   matchLabels:
+     app: webapp
+template:
+   metadata: 
+   name: mavenwebapp
+   label:
+     app: webapp
+spec:
+containers:
+- name: webappcontainer
+  image: krishnakamuju/mavenwebapp 
+Ports:
+- containerPort: 8080
+
+---
+apiVersion: v1
+Kind: Service
+metadata:
+  name: mavenwebappsvc
+Spec:
+type: loadbalancer
+selector:
+  app: webapp
+ports:
+- port: 80
+  targetPort: 8080
+
+...      

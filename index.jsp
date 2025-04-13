@@ -1,12 +1,12 @@
 <html>
 <body>
-<h1><font color='red'> Welcome to Ashok IT - Software Training Institute <font></h1>
+<h1><font color='red'> Welcome to JENKINS Project<font></h1>
 
-<a href="www.ashokit.in">Click Here To See Ashok IT Training Schedules</a>
+  <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.shutterstock.com%2Fsearch%2Fdevops-engineer&psig=AOvVaw38A5y1OwosCMB9V2HoZh4a&ust=1744633479438000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCPClg6uA1YwDFQAAAAAdAAAAABAE" alt="Description of the image">
   
-  <h2> Call Us : +91-9985396677  </h2>
+  <h2> Deploying the javascript project using CI/CD </h2>
   
-  <h3> Our Ofc Location : Ameerpet, Hyderbad </h3>
+  <h3> I used tools like git,docker,maven,kubernetes  </h3>
 
 </body>
 </html>
